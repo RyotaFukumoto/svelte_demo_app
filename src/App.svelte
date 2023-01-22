@@ -1,5 +1,9 @@
-<script>
-	let src = 'src/assets/image.gif';
-</script>
+<p>This is a paragraph.</p>
 
-<img {src} alt="A man dances.">
+<style>
+	p{
+    color: purple;
+    font-family: 'Comic Sans MS',cursive;
+    font-size: 2em;
+  }
+</style>
