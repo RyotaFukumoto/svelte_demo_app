@@ -1,4 +1,5 @@
 <script>
-  let name = 'world'
+	let src = 'src/assets/image.gif';
 </script>
-<h1>Hello {name}</h1>
+
+<img {src} alt="A man dances.">
