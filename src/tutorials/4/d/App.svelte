@@ -9,9 +9,9 @@
 <h1>The Famous Cats of YouTube</h1>
 
 <ul>
-	<!-- open each block -->
-		<li><a target="_blank" href="https://www.youtube.com/watch?v={cat.id}" rel="noreferrer">
-			{cat.name}
+	{#each cats as { id, name }, i}
+		<li><a target="_blank" href="https://www.youtube.com/watch?v={id}" rel="noreferrer">
+			{i + 1}: {name}
 		</a></li>
-	<!-- close each block -->
+	{/each}
 </ul>
