@@ -19,6 +19,7 @@
 	generate random number
 </button>
 
+<!-- チュートリアルにrandom-numberのファイルが無いためこのリポジトリのみでは実行不可 -->
 {#await promise}
 	<p>...waiting</p>
 {:then number}
